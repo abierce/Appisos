@@ -1,0 +1,147 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.Appisos.apps.Configuracion"
+    android:background="@color/white"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/prueba"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/btnSubirImg"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dip"
+            android:background="@color/white"
+            android:text="@string/csubirimg"
+            android:textColor="@color/selfie"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:clickable="true"/>
+            <!--android:onClick="onClick"-->
+
+        <EditText
+            android:id="@+id/cUserName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/selfie"
+            android:inputType="text"
+            android:hint="@string/cnameUser"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/selfie"
+            android:textSize="14dp"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/cPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/selfie"
+            android:hint="@string/cpassUser"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/selfie"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/cPassConfirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/selfie"
+            android:hint="@string/cpassConfirm"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/selfie"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/cName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/selfie"
+            android:hint="@string/cname"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/selfie"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/cSurname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/selfie"
+            android:hint="@string/csurname"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/selfie"
+            android:textColorHint="@color/input_login_hint" />
+
+        <EditText
+            android:id="@+id/cEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/selfie"
+            android:hint="@string/cemail"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="@color/selfie"
+            android:textColorHint="@color/input_login_hint" />
+
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dip"
+            android:background="@color/btn_login"
+            android:text="@string/bGuardar"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/bottom_bar"/>
+
+
+</LinearLayout>

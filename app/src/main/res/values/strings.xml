@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Appisos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="rname">Nombre</string>
+    <string name="rsurname">Apellidos</string>
+    <string name="ruserName">Usuario</string>
+    <string name="rpassword">Contraseña</string>
+    <string name="rconfirmPass">Repite contraseña</string>
+    <string name="remail">Correo electrónico</string>
+    <string name="cnameUser">Nombre de Usuario</string>
+    <string name="cpassUser">Cambiar Contraseña</string>
+    <string name="cpassConfirm">Repite Nueva Contraseña</string>
+    <string name="cname">Nombre</string>
+    <string name="csurname">Apellidos</string>
+    <string name="cemail">Correo Electrónico</string>
+    <string name="csubirimg">Subir Imagen</string>
+    <string name="bLogin">Entrar</string>
+    <string name="bRegistro">Finalizar</string>
+    <string name="bSiguiente">Siguiente ></string>
+    <string name="bRegistroH">Registrarse</string>
+    <string name="bForgot">Forgot your password</string>
+    <string name="bGuardar">Guardar datos</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_mi_perfil">MiPerfil</string>
+    <string name="title_activity_subir_imagen">SubirImagen</string>
+    <string name="title_activity_buscar">Buscar</string>
+    <string name="title_activity_winners">Winners</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_login">Login</string>
+    <string name="drawer_open">Menu desplegado</string>
+    <string name="drawer_close">Menu cerrado</string>
+    <!--Lista de titulos del menu lateral-->
+    <string-array name="nav_titles">
+        <item>Inicio</item>
+        <item>Perfil</item>
+        <item>Ranking</item>
+        <item>Amigos</item>
+        <item>Winners</item>
+        <item>Log out</item>
+    </string-array>
+    <!--Lista de iconos del menu lateral-->
+    <array name="nav_icons">
+        <item>@drawable/home_bt_menu</item>
+        <item>@drawable/perfil_bt_menu</item>
+        <item>@drawable/ranking_bt_menu</item>
+        <item>@drawable/amigos_bt_menu</item>
+        <item>@drawable/winners_bt_menu</item>
+        <item>@drawable/logout_bt_menu</item>
+    </array>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_activity_amigos">Amigos</string>
+</resources>

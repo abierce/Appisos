@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Appisos.apps" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.Appisos.apps.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Appisos.apps.Register"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.Appisos.apps.MiPerfil"
+            android:label="@string/title_activity_mi_perfil"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.Appisos.apps.SubirImagen"
+            android:label="@string/title_activity_subir_imagen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.Appisos.apps.Buscar"
+            android:label="@string/title_activity_buscar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.Appisos.apps.Configuracion"
+            android:label="@string/title_activity_configuracion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.Appisos.apps.Inicio"
+            android:label="@string/title_activity_inicio"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.Appisos.apps.MiPerfil"/>
+      <point      
+        x = "3952"      
+        y = "36"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.Appisos.apps.Buscar"/>
+      <point      
+        x = "3108"      
+        y = "68"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.Appisos.apps.Register"/>
+      <point      
+        x = "2176"      
+        y = "704"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.Appisos.apps.Login"/>
+      <point      
+        x = "824"      
+        y = "972"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.Appisos.apps.SubirImagen"/>
+      <point      
+        x = "-88"      
+        y = "56"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.Appisos.apps.Configuracion"/>
+      <point      
+        x = "3320"      
+        y = "1016"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
